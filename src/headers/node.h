@@ -1,6 +1,4 @@
-#ifndef NODE_H
-#define NODE_H
-
+#pragma once
 
 // UtypeX specifies a user provided type
 template<class Utype1, class Utype2>
@@ -40,5 +38,3 @@ public:
     }
 
 };
-
-#endif

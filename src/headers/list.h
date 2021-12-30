@@ -1,5 +1,4 @@
-#ifndef LIST_H
-#define LIST_H
+#pragma once
 
 #include <iostream>
 #include "node.h"
@@ -25,9 +24,7 @@ public:
     //     }
     // }
 
-    /* Been a few years since I've dabbled with Cpp again,
-     * so I referenced this https://stackoverflow.com/a/15672823 for
-     * creating a destructor (though I think default one would do, too)
+    /* referenced this https://stackoverflow.com/a/15672823
      */
     void list_destruct() {
         while (head != nullptr) { 
@@ -228,6 +225,3 @@ public:
         }
     }
 };
-
-
-#endif
